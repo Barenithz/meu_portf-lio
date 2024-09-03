@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+   <!-- Aqui criei um header para realizar a criação do Menu interativo-->
+    <header class="menu">
+        <section id="headerbusca">
+        <div class="container">
+        <h2><strong> Navegação Portfólio Lucas Cortez</strong></h2>
+        <ul class="ul_sobremim">
+            <li class="lista_principal"><a href="#Sobremim">Sobre mim</a> </li>
+            <li class="lista_principal"><a href="#curriculo">Currículo</a> </li>
+            <li class="lista_principal"><a href="#contato">Contato</a></li>
+            <li class="lista_principal"><a href="#Portfolio">Portfólio</a> </li>
+        </ul>
+        </nav>
+       
+    </header>
+</div>
+
+    <hr>
+<!-- Aqui criei uma classe main para conter o conteúdo principal do site, que trata-se das informações sobre mim -->
+    <main>
+        <section>
+            <h1>Sobre mim</h1>
+            <p> Me chamo Lucas Cortez, Tenho 23 anos e estou realizando graduação em análise e desenvolvimento para atuar na área de desenvolvimento WEB, Meus hobbies favoritos atualmente se dão em pró de desenvolvimento pessoal, realizo rotinas diárias de treino, leitura dinâmica e gosto de passar o tempo livre em família. Meu esporte favorito é Futebol e Musculação.</p>
+        </section>
+        <br>
+        <section>
+            <h2>Missão</h2>
+            <p>Me especializar em linguagens atuais e adquirir proeficiência nelas e me tornar um desenvolvedor fullstack, atualmente, tenho estudado essas linguagens abaixo:</p>
+            <br>
+            <ol class="lista">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>C#</li>
+            </ol>
+            <br>
+        </section>
+        <br>
+        <!-- Aqui criei uma section para separar os conteúdos do site -->
+        <section id="curriculo">
+            <h2>Currículo</h1>
+            <ol class="Curriculo_descricao">
+                <li>Ensino Médio Completo</li>
+                <li>Formado em técnico em TI pela instuição Senac Minas</li>
+                <li>Tecnólogo em Redes computadores 1/4- Curso trancado pela instuição Unopar</li>
+                <li>Tecnólogo em Análise e desenvolvimento de sistemas 2/4 pela instituição Uninter.</li>
+                <li>Proeficiência em Meios de pagamento - Mastercard Academy</li>
+                <li> Cursos extracurricular com ênfase em desenvolvimento WEB pelas intituições UDEMY e ALURA</li>
+            </ol>
+            <br>
+            <h1>Softskills</h1>
+            <ol class="curriculo_softskills">
+                <li>Competência Persuasiva, Inteligência Emocional</li>
+                <li>Trabalho em equipe, Proatividade</li>
+                <li>Perfil analítico, Resolução de problemas</li>
+                <li>Aprendizado ativo</li>
+                <li> Gestão de pessoas e influência Social</li>
+            </ol>
+            <br>
+            <h1>Hardskills</h1>
+            <ol class="curriculo_hardskills">
+                <li>Proeficiência em SRE, adepto á aplicações Zabbix,Grafana, Nagios</li>
+                <li>Gestão de crises, aplicação de metodologia ITIL em trabalho</li>
+                <li> Conhecimento em Linguagens de desenvolvimento WEB; HTML, CSS, JavaScript</li>
+                <li>Pacote Office Avançado</li>
+                <li>Domínio Lingua inglesa-Intermediário</li>
+            </ol>
+            <BR>
+        </section>
+        <!-- Aqui criei uma section para separar os conteúdos do site -->
+        <section>
+            <h2>Trajetória</h2>
+            <p> Atualmente estou me graduando em análise e desenvolvimento de sistemas e também realizo diversos cursos na plataforma Alura e Bootstrap a fins de me especializar, Atualmente estou realizando ênfase nos estudos para desenvolvimento WEB.</p>
+        </section>
+
+        <section id="Portfolio">
+            <h2 class="Portfolio">Portfólio</h2>
+            <p> Atualmente, não tenho projetos publicados em meu Portfólio no Github, no entanto, segue meu perfil abaixo :</p>
+            <button class="botao_github" onclick="window.location.href='https://github.com/Barenithz'">Github</button>
+        </section>
+
+<!-- Aqui criei uma section para separar os conteúdos do site -->
+    </main>
+        <section class="apresentacao_conteudo">
+                <h2 class="acesse">Contato abaixo:</h2>
+                <a class="apresentacao_links_link" href="https://www.linkedin.com/in/lucas-costa-cortez-51782a192/">Instagram
+                <img class="insta" src="Fotos/insta.png" >
+                </a>
+                <a class="apresentacao_links_link" href="https://www.linkedin.com/in/lucas-costa-cortez-51782a192/">Linkedln
+                <img class="linkedin" src="Fotos/linkedln.png">
+                </a>
+            
+            </div>
+        </section>
+
+        <!-- Aqui criei uma footer para realizar o rodapé do site  e criação de um formulário de input.-->
+        <br>
+        <footer class="rodape">
+            <p id="contato">Contato</p>
+            <p id="1">&copy;2024 Lucas Costa Cortez - Analista de TI | (31)98695-6369</p>
+        
+            <h2>Entre em Contato</h2>
+            <form action="javaopcional.js" method="post">
+                <div class="formulario">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="seunome" name="snome" required>
+                </div>
+    
+                <div class="formulario">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="seuemail" required>
+                </div>
+    
+                <div class="formulario">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                </div>
+    
+                <div class="formulario">
+                    <input type="submit" value="Enviar">
+                </div>
+          </form>
+            </div>
+
+        </footer>
+
+
+  
+    

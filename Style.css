@@ -1,0 +1,111 @@
+*{
+margin: 0;
+padding: 0;   
+}
+
+body { 
+    background-image: url("http://127.0.0.1:5500/Fotos/fundo.jpeg");
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+}
+
+.menu{
+    align-items: center;
+    background-color: #0f121e;
+    color: white;
+    border: unset;
+    display: flex;
+    height: 65px;
+    left: 0;
+    padding: 17px;
+}
+
+
+
+
+main{
+padding:17px 10px
+}
+.ul_sobremim{
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #f1f1f1;
+border: solid 1px ;
+
+}
+
+.lista_principal{float: left;
+}
+
+li a{
+display: block;
+color: white;
+padding: 10px 15px;
+text-decoration: none;    
+}
+
+li a:hover{
+background-color: rgb(60, 53, 53);
+color: rgb(19, 116, 220);
+}
+
+
+.apresentacao_links_link {
+    float:left;
+    display: flex;
+    width: 280px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 20px 0px;
+    justify-content: space-between 10 px;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.apresentacao_conteudo{
+padding: 50px 10px;
+margin: 10px;
+display:block;
+}
+
+.botao_github{
+        background-color: #cf1b33; 
+        border: none; 
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        margin: 4px 2px; 
+        cursor: pointer; 
+        border-radius: 4px; 
+    }
+
+
+.insta{
+    height: 60px;
+}
+.linkedin{
+height: 50px;}
+
+.rodape{
+padding: 20px;
+margin: 1%;
+border: solid;
+border-radius: 10px;
+height: 175px;
+margin-top: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+text-align: center;
+
+}
+
+
+
